@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="box"><input id="demo" class="box" type="text"></div>
+        <div class="row1">
+         <input type="button" value="7" class="box1" onclick="demo.value+=this.value">
+            <input type="button" value="8" onclick="demo.value+=this.value" class="box1" ></input>
+            <input type="button" value="9" class="box1" onclick="demo.value+=this.value"></input>
+            <input type="button" onclick="demo.value+=this.value" value="+" class="box1 m"   ></input>
+        </div> 
+       <div class="row1"> 
+        <input type="button" value="4" class="box1" onclick="demo.value+=this.value">
+        <input type="button" value="5" onclick="demo.value+=this.value" class="box1" ></input>
+        <input type="button" value="6" class="box1" onclick="demo.value+=this.value"></input>
+        <input type="button" onclick="demo.value+=this.value" value="-" class="box1 m"   ></input>
+
+    </div >
+<div class="row1">
+    <input type="button" value="1" class="box1" onclick="demo.value+=this.value">
+    <input type="button" value="2" onclick="demo.value+=this.value" class="box1" ></input>
+    <input type="button" value="3" class="box1" onclick="demo.value+=this.value"></input>
+    <input type="button" onclick="demo.value+=this.value" value="*" class="box1 m"   ></input>
+    </div >
+    <div class="row1"> 
+        <input type="button" value="0" class="box1" onclick="demo.value+=this.value">
+        <input type="button" value="C" onclick="demo.value=''" class="box1" ></input>
+        <input type="button" value="=" class="box1" onclick="demo.value=eval(demo.value)"></input>
+        <input type="button" onclick="demo.value+=this.value" value="/" class="box1 m"   ></input></div>
+</body>
+</html>

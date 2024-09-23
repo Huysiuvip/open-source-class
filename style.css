@@ -1,0 +1,27 @@
+.box{
+   border: 1px black solid;
+    width: 400px;
+   
+    height: 50px;
+}
+.row1{
+    display: flex}
+.box1{
+    border: 1px black solid;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+   
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+ 
+}
+.m{
+    background-color: orange;
+}
+.center{
+    
+}
